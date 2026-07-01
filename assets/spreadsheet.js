@@ -3,8 +3,10 @@
   const seasonal = await loadSeasonalData();
 
   const meta = data.meta || {};
-  document.getElementById('metaLine').innerHTML =
-      `Latest update: ${meta.latest_rotation || ''}`;
+  document.getElementById('metaLine').innerHTML = `
+    Latest update:<br>
+    <span class="topInfoValueLarge">${meta.latest_update || meta.latest_rotation || ''}</span>
+  `;
 
   const els = {
     q: document.getElementById('q'),
@@ -14,9 +16,15 @@
     tbodySeasonal: document.querySelector('#tbl-seasonal tbody'),
   };
 
-  let sheetSort = {
-    key: 'name',
-    dir: 'asc'
+  const sheetSorts = {
+    normal: {
+      key: 'name',
+      dir: 'asc'
+    },
+    seasonal: {
+      key: 'days',
+      dir: 'asc'
+    }
   };
 
   const SEASON_ORDER = [
@@ -95,6 +103,35 @@
     return now;
   }
 
+  function updateNextRotationCountdown(){
+    const el = document.getElementById('nextRotationCountdown');
+    if(!el) return;
+
+    const now = new Date();
+    const today = new Date(now);
+    today.setHours(0, 0, 0, 0);
+
+    const latestRotation = parseDateLoose(meta.latest_rotation || meta.latest_update);
+    const siteUpdatedToday = latestRotation && latestRotation.getTime() === today.getTime();
+
+    const day = today.getDay();
+
+    if(day === 1 && !siteUpdatedToday){
+      el.textContent = 'Today';
+      return;
+    }
+
+    if(day === 0){
+      el.textContent = 'Tomorrow';
+      return;
+    }
+
+    let daysUntilMonday = (8 - day) % 7;
+    if(daysUntilMonday === 0) daysUntilMonday = 7;
+
+    el.textContent = `${daysUntilMonday} day${daysUntilMonday === 1 ? '' : 's'}`;
+  }
+
   function daysLiveFromEffective(m){
     const eff = parseDateLoose(m.effective_date || m.dateStatus || m.last_seen || 'Unknown');
     if(!eff) return null;
@@ -108,12 +145,70 @@
     return (n == null) ? '—' : String(n);
   }
 
+  function shortDate(dateStr){
+    if(!dateStr) return '';
+
+    const months = {
+      January: 'Jan.',
+      February: 'Feb.',
+      August: 'Aug.',
+      September: 'Sept.',
+      October: 'Oct.',
+      November: 'Nov.',
+      December: 'Dec.'
+    };
+
+    for(const [longName, shortName] of Object.entries(months)){
+      if(String(dateStr).startsWith(longName)){
+        return String(dateStr).replace(longName, shortName);
+      }
+    }
+
+    return dateStr;
+  }
+
+  function cleanValue(value){
+    const raw = String(value ?? '').trim();
+    const lower = raw.toLowerCase();
+
+    if(
+      !raw ||
+      lower === 'unknown' ||
+      lower === 'not specified' ||
+      lower === 'not specified.'
+    ){
+      return '—';
+    }
+
+    return raw;
+  }
+
+  function cleanDate(value){
+    const raw = cleanValue(value);
+    return raw === '—' ? '—' : shortDate(raw);
+  }
+
+  function genBBCodeToHTML(value){
+    const raw = String(value || '').trim();
+
+    if(!raw) return '';
+
+    return raw.replace(
+      /\[COLOR=rgb\(([^)]+)\)\](.*?)\[\/COLOR\]/gi,
+      '<span style="color:rgb($1)">$2</span>'
+    );
+  }
+
   const normalMaps = (data.maps || []).map(m => ({
     ...m,
     isSeasonal: false,
   }));
 
-  const seasonalMaps = (seasonal.maps || []).map(m => {
+  const seasonalSource = Array.isArray(seasonal)
+    ? seasonal
+    : (seasonal.maps || []);
+
+  const seasonalMaps = seasonalSource.map(m => {
     const seasonLabel = detectSeasonLabel(m);
     return {
       ...m,
@@ -130,7 +225,7 @@
       playstyle: m.playstyle || 'Not specified.',
       wiki: m.wiki || '',
       note: m.note || '',
-      gen_html: m.gen_html || '',
+      gen_html: m.gen_html || genBBCodeToHTML(m.gen),
       emoji: m.emoji || '',
     };
   });
@@ -244,14 +339,16 @@
     }
   }
 
-  function compareMaps(a, b){
-    const av = sortValue(a, sheetSort.key);
-    const bv = sortValue(b, sheetSort.key);
+  function compareMaps(sortState){
+    return function(a, b){
+      const av = sortValue(a, sortState.key);
+      const bv = sortValue(b, sortState.key);
 
-    if (av < bv) return sheetSort.dir === 'asc' ? -1 : 1;
-    if (av > bv) return sheetSort.dir === 'asc' ? 1 : -1;
+      if(av < bv) return sortState.dir === 'asc' ? -1 : 1;
+      if(av > bv) return sortState.dir === 'asc' ? 1 : -1;
 
-    return byName(a, b);
+      return byName(a, b);
+    };
   }
 
   function stripBBCode(s){
@@ -288,12 +385,12 @@
     const filteredNormal = normalMaps
       .filter(matchesShared)
       .slice()
-      .sort(compareMaps);
+      .sort(compareMaps(sheetSorts.normal));
 
     const filteredSeasonal = seasonalMaps
       .filter(matchesShared)
       .slice()
-      .sort(compareMaps);
+      .sort(compareMaps(sheetSorts.seasonal));
 
 
     for(const m of filteredNormal){
@@ -324,21 +421,21 @@
 
       tr.appendChild(td(formatDaysLive(m), `nowrap ${statusSoft}`));
 
-      tr.appendChild(td(m.effective_date || m.dateStatus || '', statusSoft));
+      tr.appendChild(td(cleanDate(m.effective_date || m.dateStatus || ''), statusSoft));
 
       tr.appendChild(td(
-        m.playstyle || '',
+        cleanValue(m.playstyle),
         `cell-playstyle ${playstyleClass(m.playstyle)}`
       ));
 
-      tr.appendChild(tdHtml(m.mode !== '3s/4s' ? (m.gen_html || '') : ''));
+      tr.appendChild(tdHtml(cleanValue(m.gen_html)));
 
-      tr.appendChild(td(m.released || ''));
+      tr.appendChild(td(cleanDate(m.released || '')));
 
-      tr.appendChild(td(m.buildMinY ?? ''));
-      tr.appendChild(td(m.buildMaxY ?? ''));
-      tr.appendChild(td(m.buildRange ?? ''));
-      tr.appendChild(td(m.buildRadius ?? ''));
+      tr.appendChild(td(cleanValue(m.buildMinY)));
+      tr.appendChild(td(cleanValue(m.buildMaxY)));
+      tr.appendChild(td(cleanValue(m.buildRange)));
+      tr.appendChild(td(cleanValue(m.buildRadius)));
 
       tr.appendChild(tdHtml(m.wiki ? `<a href="${m.wiki}" target="_blank" rel="noopener">Wiki</a>` : ''));
 
@@ -359,7 +456,7 @@
       tr.appendChild(td(mapLabel));
 
       const modeLabel =
-        m.mode === '3s/4s' ? '3v3v3v3/4v4v4v4' : 'Solos/Doubles';
+        m.mode === '3s/4s' ? '4 teams' : '8 teams';
 
       tr.appendChild(td(
         modeLabel,
@@ -373,21 +470,21 @@
 
       tr.appendChild(td(formatDaysLive(m), `nowrap ${statusSoft}`));
 
-      tr.appendChild(td(m.effective_date || m.dateStatus || '', statusSoft));
+      tr.appendChild(td(cleanDate(m.effective_date || m.dateStatus || ''), statusSoft));
 
       tr.appendChild(td(
         m.playstyle || '',
         `cell-playstyle ${playstyleClass(m.playstyle)}`
       ));
 
-      tr.appendChild(tdHtml(''));
+      tr.appendChild(tdHtml(cleanValue(m.gen_html)));
 
-      tr.appendChild(td(m.released || ''));
+      tr.appendChild(td(cleanDate(m.released || '')));
 
-      tr.appendChild(td(m.buildMinY ?? ''));
-      tr.appendChild(td(m.buildMaxY ?? ''));
-      tr.appendChild(td(m.buildRange ?? ''));
-      tr.appendChild(td(m.buildRadius ?? ''));
+      tr.appendChild(td(cleanValue(m.buildMinY)));
+      tr.appendChild(td(cleanValue(m.buildMaxY)));
+      tr.appendChild(td(cleanValue(m.buildRange)));
+      tr.appendChild(td(cleanValue(m.buildRadius)));
 
       tr.appendChild(tdHtml(m.wiki ? `<a href="${m.wiki}" target="_blank" rel="noopener">Wiki</a>` : ''));
 
@@ -401,13 +498,19 @@
 
   function updateSortHeaders(){
     document.querySelectorAll('th[data-sort]').forEach(th => {
+      const table = th.closest('table');
+      const tableKey = table && table.id === 'tbl-seasonal'
+        ? 'seasonal'
+        : 'normal';
+
+      const sortState = sheetSorts[tableKey];
       const key = th.dataset.sort;
       const label = th.dataset.label || th.textContent.replace(/[▲▼↑↓]/g, '').trim();
 
       th.dataset.label = label;
 
-      if(key === sheetSort.key){
-        th.textContent = `${label} ${sheetSort.dir === 'asc' ? '↑' : '↓'}`;
+      if(key === sortState.key){
+        th.textContent = `${label} ${sortState.dir === 'asc' ? '↑' : '↓'}`;
         th.classList.add('sort-active');
       }else{
         th.textContent = label;
@@ -418,13 +521,19 @@
 
   document.querySelectorAll('th[data-sort]').forEach(th => {
     th.addEventListener('click', () => {
+      const table = th.closest('table');
+      const tableKey = table && table.id === 'tbl-seasonal'
+        ? 'seasonal'
+        : 'normal';
+
+      const sortState = sheetSorts[tableKey];
       const key = th.dataset.sort;
 
-      if(sheetSort.key === key){
-        sheetSort.dir = sheetSort.dir === 'asc' ? 'desc' : 'asc';
+      if(sortState.key === key){
+        sortState.dir = sortState.dir === 'asc' ? 'desc' : 'asc';
       }else{
-        sheetSort.key = key;
-        sheetSort.dir = 'asc';
+        sortState.key = key;
+        sortState.dir = 'asc';
       }
 
       render();
@@ -436,8 +545,12 @@
     el.addEventListener('change', render);
   }
 
+  updateNextRotationCountdown();
+  setInterval(updateNextRotationCountdown, 60000);
+
   render();
   revealOnLoad();
+
 })().catch(err=>{
   console.error(err);
   alert(err.message || String(err));
