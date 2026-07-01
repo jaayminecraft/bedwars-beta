@@ -29,30 +29,41 @@
 </head>
 <body>
   <header class="wrap">
-    <div class="site-header">
-      <img
-        src="https://i.imgur.com/OWWjQZi.png"
-        alt="Bed Wars Map Rotation"
-        class="site-logo"
-      />
+    <div class="topDashboard">
+      <a class="topLogoLink" href="./index.html">
+        <img
+          src="assets/site-logo.webp"
+          alt="Bed Wars Map List"
+          class="topLogo"
+        />
+      </a>
 
-      <div class="header-meta">
-        <nav class="nav">
-          <a class="pill" href="./index.html">Map List</a>
-          <a class="pill active" href="./spreadsheet.html">Spreadsheet</a>
-        </nav>
+      <nav class="nav topNav">
+        <a class="pill" href="./index.html">Map List</a>
+        <a class="pill active" href="./spreadsheet.html">Spreadsheet</a>
+      </nav>
 
-        <div class="meta-info">
-          <p class="site-disclaimer inline header-box">
-            This map list is player-maintained, updated every Monday.
-            Contact JaayMC on Discord if you notice any issues.
-          </p>
-
-          <div id="metaLine" class="site-rotation header-box"></div>
-        </div>
+      <div class="topInfoBox topInfoWide">
+        <span class="topInfoIcon">ℹ️</span>
+        <span>
+          This map list is player-maintained, updated every Monday.
+          Contact JaayMC on Discord if you notice any issues.
+        </span>
       </div>
 
+      <div class="topInfoBox">
+        <span class="topInfoIcon">🗓️</span>
+        <span id="metaLine" class="topInfoValue"></span>
+      </div>
 
+      <div class="topInfoBox">
+        <span class="topInfoIcon">♻️</span>
+        <span>
+          Next rotation:
+          <strong id="nextRotationCountdown">Calculating…</strong>
+        </span>
+      </div>
+    </div>
   </header>
 
   <main class="wrap">
@@ -69,6 +80,10 @@
           <option value="in">In rotation</option>
           <option value="out">Out of rotation</option>
         </select>
+
+        <a class="pill sheetJumpBtn" href="#seasonalTableSection">
+          Jump to seasonal spreadsheet ↓
+        </a>
       </div>
       <div class="tiny muted" style="margin-top:10px;">
         Tip: Use the filters above to narrow the table. Click any highlighted column header to sort (click again to reverse).
@@ -101,7 +116,7 @@
       </table>
     </section>
 
-    <section class="card tablewrap" style="margin-top:14px;">
+    <section id="seasonalTableSection" class="card tablewrap" style="margin-top:14px;">
       <h3 style="margin:0 0 10px;">Seasonal maps</h3>
 
       <div class="muted tiny" style="margin:0 0 10px;">

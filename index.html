@@ -31,7 +31,7 @@
     <div class="topDashboard">
       <a class="topLogoLink" href="./index.html">
         <img
-          src="https://hypixel.net/attachments/bedwars-map-list-png.3484005/"
+          src="assets/site-logo.webp"
           alt="Bed Wars Map List"
           class="topLogo"
         />
@@ -67,6 +67,13 @@
 
   <main class="wrap">
       <section id="rotation-overview" class="rotationOverview" style="display:none;">
+        <article id="mapSummaryPanel" class="rotationPanel mapSummaryPanel">
+          <div class="rotationPanelTop">
+            <div class="rotationPanelTitle">📊 Map Summary</div>
+          </div>
+
+          <div id="mapSummaryBody" class="mapSummaryBody"></div>
+        </article>
         <article class="rotationPanel rotationPanel-main">
           <div class="rotationPanelTop">
             <div class="rotationPanelTitle">♻️ Latest Rotation</div>
@@ -110,47 +117,206 @@
         </article>
       </section>
 
-    <section class="controls card">
-      <div class="row">
-        <input id="q" class="input" placeholder="Search maps (name)…" />
-        <select id="mode" class="select">
-          <option value="all">Core modes</option>
-          <option value="Solos/Doubles">Solos/Doubles</option>
-          <option value="3s/4s">3s/4s</option>
-          <option value="Seasonal">Seasonal</option>
-        </select>
-        <select id="status" class="select">
-          <option value="all">In + Out</option>
-          <option value="in">In rotation</option>
-          <option value="out">Out of rotation</option>
-        </select>
+       <section class="controls card">
 
-        <select id="sort" class="select">
-          <option value="name_asc">Sort: Name (A→Z)</option>
-          <option value="name_desc">Sort: Name (Z→A)</option>
-          <option value="days_desc">Sort: Days (high→low)</option>
-          <option value="days_asc">Sort: Days (low→high)</option>
-        </select>
-        <select id="playstyle" class="select">
-          <option value="all">All playstyles</option>
-        </select>
-      </div>
-      <div class="row tiny muted">
-        Tip: Click a map to expand details (like a spoiler).
-      </div>
-    </section>
+        <div class="filterBar">
+          <div class="filterSearchWrap">
+            <span class="filterSearchIcon" aria-hidden="true">⌕</span>
+            <input id="q" class="input filterSearch" placeholder="Search maps…" />
+          </div>
+
+          <select id="sort" class="select filterSort">
+            <option value="name_asc">Sort: Name A→Z</option>
+            <option value="name_desc">Sort: Name Z→A</option>
+            <option value="days_desc">Sort: Days high→low</option>
+            <option value="days_asc">Sort: Days low→high</option>
+          </select>
+
+          <select id="mode" hidden>
+            <option value="all">All Modes</option>
+            <option value="Solos/Doubles">Solos/Doubles</option>
+            <option value="3s/4s">3s/4s</option>
+            <option value="seasonal">Seasonal</option>
+          </select>
+
+          <select id="status" hidden>
+            <option value="all">All Statuses</option>
+            <option value="in">In rotation</option>
+            <option value="out">Out of rotation</option>
+          </select>
+
+          <button id="modeFilterToggle" class="filterToggle filterToggle-mode" type="button" aria-expanded="false">
+            <span class="filterGroupIcon filterGroupIcon-mode" aria-hidden="true"></span>
+            <span id="modeFilterLabel">All Modes</span>
+          </button>
+
+          <button id="statusFilterToggle" class="filterToggle filterToggle-status" type="button" aria-expanded="false">
+            <span class="filterGroupIcon filterGroupIcon-status" aria-hidden="true"></span>
+            <span id="statusFilterLabel">In + Out</span>
+          </button>
+
+          <button id="playstyleFilterToggle" class="filterToggle filterToggle-playstyle" type="button" aria-expanded="false">
+            <span class="filterGroupIcon filterGroupIcon-playstyle" aria-hidden="true"></span>
+            <span id="playstyleFilterLabel">Playstyle</span>
+          </button>
+
+          <button id="genFilterToggle" class="filterToggle filterToggle-gen" type="button" aria-expanded="false">
+            <span class="filterGroupIcon filterGroupIcon-gen" aria-hidden="true"></span>
+            <span id="genFilterLabel">Gen Speed</span>
+          </button>
+
+          <button id="settingsFilterToggle" class="filterToggle filterToggle-settings" type="button" aria-expanded="false">
+            <span class="filterToggleIcon" aria-hidden="true"></span>
+            <span id="settingsFilterLabel">Settings</span>
+          </button>
+
+        </div>
+
+        <div id="modeFilterPanel" class="filterPanel compactFilterPanel" hidden>
+          <div class="filterPanelHeader">
+            <div class="filterPanelTitle">
+              <span class="filterGroupIcon filterGroupIcon-mode" aria-hidden="true"></span>
+              Mode
+            </div>
+            <button class="filtersClose" type="button" aria-label="Close filters">×</button>
+          </div>
+
+          <div class="quickFilterBody">
+            <button class="filterMenuChoice" type="button" data-mode-value="all">
+              <span>All Modes</span>
+              <span class="filterOptionCount" data-mode-count="all">0</span>
+            </button>
+
+            <button class="filterMenuChoice" type="button" data-mode-value="Solos/Doubles">
+              <span>Solos/Doubles</span>
+              <span class="filterOptionCount" data-mode-count="Solos/Doubles">0</span>
+            </button>
+
+            <button class="filterMenuChoice" type="button" data-mode-value="3s/4s">
+              <span>3s/4s</span>
+              <span class="filterOptionCount" data-mode-count="3s/4s">0</span>
+            </button>
+
+            <button class="filterMenuChoice" type="button" data-mode-value="seasonal">
+              <span>Seasonal</span>
+              <span class="filterOptionCount" data-mode-count="seasonal">0</span>
+            </button>
+          </div>
+        </div>
+
+        <div id="statusFilterPanel" class="filterPanel compactFilterPanel" hidden>
+          <div class="filterPanelHeader">
+            <div class="filterPanelTitle">
+              <span class="filterGroupIcon filterGroupIcon-status" aria-hidden="true"></span>
+              Status
+            </div>
+            <button class="filtersClose" type="button" aria-label="Close filters">×</button>
+          </div>
+
+          <div class="quickFilterBody">
+            <button class="filterMenuChoice" type="button" data-status-value="all">
+              <span>In + Out</span>
+              <span class="filterOptionCount" data-status-count="all">0</span>
+            </button>
+
+            <button class="filterMenuChoice" type="button" data-status-value="in">
+              <span>In rotation</span>
+              <span class="filterOptionCount" data-status-count="in">0</span>
+            </button>
+
+            <button class="filterMenuChoice" type="button" data-status-value="out">
+              <span>Out of rotation</span>
+              <span class="filterOptionCount" data-status-count="out">0</span>
+            </button>
+          </div>
+        </div>
+
+        <div id="playstyleFilterPanel" class="filterPanel compactFilterPanel" hidden>
+          <div class="filterPanelHeader">
+            <div class="filterPanelTitle">
+              <span class="filterGroupIcon filterGroupIcon-playstyle" aria-hidden="true"></span>
+              Playstyle
+            </div>
+            <button class="filtersClose" type="button" aria-label="Close filters">×</button>
+          </div>
+
+          <div class="quickFilterBody" id="playstyleFilters"></div>
+        </div>
+
+        <div id="genFilterPanel" class="filterPanel compactFilterPanel" hidden>
+          <div class="filterPanelHeader">
+            <div class="filterPanelTitle">
+              <span class="filterGroupIcon filterGroupIcon-gen" aria-hidden="true"></span>
+              Gen Speed
+            </div>
+            <button class="filtersClose" type="button" aria-label="Close filters">×</button>
+          </div>
+
+          <div class="quickFilterBody">
+            <button class="filterMenuChoice" type="button" data-gen-value="all">
+              <span>Gen Speed</span>
+              <span class="filterOptionCount" data-gen-count="all">0</span>
+            </button>
+
+            <button class="filterMenuChoice" type="button" data-gen-value="slow">
+              <span>Slow Iron</span>
+              <span class="filterOptionCount" data-gen-count="slow">0</span>
+            </button>
+
+            <button class="filterMenuChoice" type="button" data-gen-value="medium">
+              <span>Medium Iron</span>
+              <span class="filterOptionCount" data-gen-count="medium">0</span>
+            </button>
+
+            <button class="filterMenuChoice" type="button" data-gen-value="fast">
+              <span>Fast Iron</span>
+              <span class="filterOptionCount" data-gen-count="fast">0</span>
+            </button>
+          </div>
+        </div>
+
+        <div id="settingsFilterPanel" class="filterPanel compactFilterPanel" hidden>
+          <div class="filterPanelHeader">
+            <div class="filterPanelTitle">
+              <span class="filterTitleIcon" aria-hidden="true"></span>
+              Settings
+            </div>
+            <button class="filtersClose" type="button" aria-label="Close filters">×</button>
+          </div>
+
+          <div class="quickFilterBody">
+            <input type="checkbox" data-filter-group="mapType" value="normal" checked hidden>
+
+            <label class="filterCheck filterCheck-seasonal">
+              <input type="checkbox" data-filter-group="mapType" value="seasonal">
+              <span class="filterCheckmark" aria-hidden="true"></span>
+              <span>Include active seasonal maps</span>
+            </label>
+            <label class="filterCheck filterCheck-seasonal">
+              <input id="hideSummariesToggle" type="checkbox" />
+              <span class="filterCheckmark"></span>
+              <span>Hide summaries</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="filterHint tiny muted">
+          Click a map to expand details.
+        </div>
+      </section>
 
     <section class="grid2">
       <section class="card">
-        <h2>✅ In rotation</h2>
-        <div id="in-list" class="list"></div>
-      </section>
+        <div class="mapSectionHeader mapSectionHeader-all">
+          <span class="mapSectionIcon" aria-hidden="true"></span>
+          <h2 id="mapListTitle">Maps</h2>
+          <div id="mapCountLabel" class="mapSectionCount">0 Maps</div>
+        </div>
 
-      <section class="card">
-        <h2>❌ Out of rotation</h2>
-        <div id="out-list" class="list"></div>
-      </section>
+        <div id="activeFilters" class="activeFilters mapSectionFilters" hidden></div>
 
+        <div id="map-list" class="list"></div>
+      </section>
     </section>
   </main>
 
