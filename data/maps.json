@@ -27,7 +27,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "Last seen June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/atlas-prime-png.3569854/",
+      "image_url": "assets/map-images/atlas-prime/main.webp",
       "gen_html": "",
       "note": ""
     },
@@ -53,7 +53,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "Last seen June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/echo-ruinsv2-png.3569855/",
+      "image_url": "assets/map-images/echo-ruins/main.webp",
       "gen_html": "",
       "note": ""
     },
@@ -79,7 +79,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "Last seen June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/pantheon-png.3569856/",
+      "image_url": "assets/map-images/pantheon/main.webp",
       "gen_html": "",
       "note": ""
     },
@@ -105,7 +105,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "Last seen June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/station-png.3569858/",
+      "image_url": "assets/map-images/station/main.webp",
       "gen_html": "",
       "note": ""
     },
@@ -131,7 +131,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "Last seen June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/lasagna-png.3569859/",
+      "image_url": "assets/map-images/lasagne/main.webp",
       "gen_html": "",
       "note": ""
     },
@@ -157,7 +157,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "Last seen June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/manor-royale-png.3569860/",
+      "image_url": "assets/map-images/manor-royale/main.webp",
       "gen_html": "",
       "note": ""
     },
@@ -183,7 +183,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "Last seen June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/shipment-png.3569861/",
+      "image_url": "assets/map-images/shipment/main.webp",
       "gen_html": "",
       "note": ""
     },
@@ -209,7 +209,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "Last seen June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/shipwreck-png.3569862/",
+      "image_url": "assets/map-images/shipwreck/main.webp",
       "gen_html": "",
       "note": ""
     },
@@ -237,7 +237,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "In rotation since June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/acropolis-png.1979889/",
+      "image_url": "assets/map-images/acropolis/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -265,7 +265,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "Last seen June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/aetius-png.3272056/",
+      "image_url": "assets/map-images/aetius/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -294,7 +294,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "In rotation since June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/airshow-png.1705778/",
+      "image_url": "assets/map-images/airshow/main.webp",
       "gen_html": "<span style=\"color:rgb(41, 105, 176)\">Slow Iron</span>"
     },
     {
@@ -321,7 +321,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "Last seen June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/amazon-png.1705781/",
+      "image_url": "assets/map-images/amazon/main.webp",
       "gen_html": "<span style=\"color:rgb(41, 105, 176)\">Slow Iron</span>",
       "note": ""
     },
@@ -349,7 +349,7 @@
       "days": 49,
       "days_display": "49",
       "display_status_line": "Last seen May 11, 2026",
-      "image_url": "https://hypixel.net/attachments/ambush-png.3198559/",
+      "image_url": "assets/map-images/ambush/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -378,7 +378,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "In rotation since June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/apollo-png.2344864/",
+      "image_url": "assets/map-images/apollo/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>"
     },
     {
@@ -405,7 +405,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "In rotation since June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/aqil-png.2976362/",
+      "image_url": "assets/map-images/aqil/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -433,7 +433,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "Last seen June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/arcade-png.3283933/",
+      "image_url": "assets/map-images/arcade/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -461,7 +461,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "Last seen June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/arid-png.3272050/",
+      "image_url": "assets/map-images/arid/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -489,7 +489,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "In rotation since June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/ashfire-png.2086213/",
+      "image_url": "assets/map-images/ashfire/main.webp",
       "gen_html": "<span style=\"color:rgb(41, 105, 176)\">Slow Iron</span>",
       "note": ""
     },
@@ -518,7 +518,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "In rotation since June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/babylon-png.1705782/",
+      "image_url": "assets/map-images/babylon/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\"> Fast Iron</span>"
     },
     {
@@ -545,7 +545,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "Last seen June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/bio-hazard1-png.2344841/",
+      "image_url": "assets/map-images/bio-hazard/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -573,7 +573,7 @@
       "days": 35,
       "days_display": "35",
       "display_status_line": "Last seen May 25, 2026",
-      "image_url": "https://hypixel.net/attachments/lunarblossom-png.1741260/",
+      "image_url": "assets/map-images/blossom/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -601,7 +601,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "In rotation since June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/cascade-png.2344866/",
+      "image_url": "assets/map-images/cascade/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -630,7 +630,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "Last seen June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/casita-png.3272052/",
+      "image_url": "assets/map-images/casita/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>"
     },
     {
@@ -657,7 +657,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "Last seen June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/cliffside-png.2344870/",
+      "image_url": "assets/map-images/cliffside/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -686,7 +686,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "In rotation since June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/crogorm-png.2344843/",
+      "image_url": "assets/map-images/crogorm/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>"
     },
     {
@@ -713,7 +713,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "Last seen June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/crypt1-png.2344845/",
+      "image_url": "assets/map-images/crypt/main.webp",
       "gen_html": "<span style=\"color:rgb(41, 105, 176)\">Slow Iron</span>",
       "note": ""
     },
@@ -741,7 +741,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "In rotation since June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/deadwood-png.3126218/",
+      "image_url": "assets/map-images/deadwood/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -769,7 +769,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "Last seen June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/dockyard-png.2976364/",
+      "image_url": "assets/map-images/dockyard/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -797,7 +797,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "Last seen June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/dragonlight-png.3289379/",
+      "image_url": "assets/map-images/dragon-light/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -825,7 +825,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "In rotation since June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/dragonstar-png.1705788/",
+      "image_url": "assets/map-images/dragonstar/main.webp",
       "gen_html": "<span style=\"color:rgb(41, 105, 176)\">Slow Iron</span>",
       "note": ""
     },
@@ -853,7 +853,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "Last seen June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/duye-png.3385599/",
+      "image_url": "assets/map-images/duye/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -881,7 +881,7 @@
       "days": 28,
       "days_display": "28",
       "display_status_line": "Last seen June 01, 2026",
-      "image_url": "https://hypixel.net/attachments/gateway-png.2086221/",
+      "image_url": "assets/map-images/gateway/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\"> Fast Iron</span>",
       "note": ""
     },
@@ -909,7 +909,7 @@
       "days": 35,
       "days_display": "35",
       "display_status_line": "Last seen May 25, 2026",
-      "image_url": "https://hypixel.net/attachments/glacier-png.1890809/",
+      "image_url": "assets/map-images/glacier/main.webp",
       "gen_html": "<span style=\"color:rgb(41, 105, 176)\">Slow Iron</span>",
       "note": ""
     },
@@ -937,7 +937,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "In rotation since June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/harvest-png.3126222/",
+      "image_url": "assets/map-images/harvest/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -965,7 +965,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "Last seen June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/highland-peak-png.3376882/",
+      "image_url": "assets/map-images/highland-peaks/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -993,7 +993,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "In rotation since June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/hollow-png.1705799/",
+      "image_url": "assets/map-images/hollow/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -1021,7 +1021,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "In rotation since June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/impere-png.3198572/",
+      "image_url": "assets/map-images/impere/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -1049,7 +1049,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "In rotation since June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/ironclad-png.3126226/",
+      "image_url": "assets/map-images/ironclad/main.webp",
       "gen_html": "<span style=\"color:rgb(41, 105, 176)\">Slow Iron</span>",
       "note": ""
     },
@@ -1077,7 +1077,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "Last seen June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/keep-png.3283937/",
+      "image_url": "assets/map-images/keep/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -1106,7 +1106,7 @@
       "days": 40,
       "days_display": "40",
       "display_status_line": "Last seen May 20, 2026",
-      "image_url": "https://hypixel.net/attachments/lighthouse-png.1705800/",
+      "image_url": "assets/map-images/lighthouse/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>"
     },
     {
@@ -1134,7 +1134,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "Last seen June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/lightstone-png.2086219/",
+      "image_url": "assets/map-images/lightstone/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>"
     },
     {
@@ -1162,7 +1162,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "In rotation since June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/lotus-png.1710961/",
+      "image_url": "assets/map-images/lotus/main.webp",
       "gen_html": "<span style=\"color:rgb(41, 105, 176)\">Slow </span><span style=\"color:rgb(71, 85, 119)\">(Solos)</span><span style=\"color:rgb(61, 142, 185)\">, </span><span style=\"color:rgb(44, 130, 201)\">Medium </span><span style=\"color:rgb(71, 85, 119)\">(Doubles)</span>"
     },
     {
@@ -1189,7 +1189,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "In rotation since June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/lucky-rush-png.2976367/",
+      "image_url": "assets/map-images/lucky-rush/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -1218,7 +1218,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "In rotation since June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/inca-png.2344871/",
+      "image_url": "assets/map-images/meso/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>"
     },
     {
@@ -1246,7 +1246,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "In rotation since June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/mirage-png.2976368/",
+      "image_url": "assets/map-images/mirage/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>"
     },
     {
@@ -1274,7 +1274,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "Last seen June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/eden-png.3272054/",
+      "image_url": "assets/map-images/nebuc/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>"
     },
     {
@@ -1301,7 +1301,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "In rotation since June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/orbit-png.1890811/",
+      "image_url": "assets/map-images/orbit/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -1330,7 +1330,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "In rotation since June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/orchestrav2-png.1979312/",
+      "image_url": "assets/map-images/orchestra/main.webp",
       "gen_html": "<span style=\"color:rgb(41, 105, 176)\">Slow Iron</span>"
     },
     {
@@ -1357,7 +1357,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "Last seen June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/pavilion-png.2976369/",
+      "image_url": "assets/map-images/pavilion/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\"> Fast Iron</span>",
       "note": ""
     },
@@ -1386,7 +1386,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "Last seen June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/pernicious-png.2344832/",
+      "image_url": "assets/map-images/pernicious/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\"> Medium Iron</span>"
     },
     {
@@ -1413,7 +1413,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "In rotation since June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/playground-png.1710963/",
+      "image_url": "assets/map-images/playground/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\"> Fast Iron </span><span style=\"color:rgb(71, 85, 119)\">(previously slow)</span>",
       "note": ""
     },
@@ -1441,7 +1441,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "In rotation since June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/polygon-png.2976370/",
+      "image_url": "assets/map-images/polygon/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -1469,7 +1469,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "In rotation since June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/rooftop-png.1705808/",
+      "image_url": "assets/map-images/rooftop/main.webp",
       "gen_html": "<span style=\"color:rgb(41, 105, 176)\">Slow Iron</span> <span style=\"color:rgb(40, 50, 78)\">(Solos)</span><span style=\"color:rgb(61, 142, 185)\">, </span><span style=\"color:rgb(44, 130, 201)\">Medium Iron</span> <span style=\"color:rgb(40, 50, 78)\">(Doubles)</span>",
       "note": ""
     },
@@ -1497,7 +1497,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "Last seen June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/rooted-png.2344872/",
+      "image_url": "assets/map-images/rooted/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -1525,7 +1525,7 @@
       "days": 35,
       "days_display": "35",
       "display_status_line": "Last seen May 25, 2026",
-      "image_url": "https://hypixel.net/attachments/sanctum-png.3198573/",
+      "image_url": "assets/map-images/sanctum/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -1553,7 +1553,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "In rotation since June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/scorched-sand-png.2976372/",
+      "image_url": "assets/map-images/scorched-sands/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\"> Fast Iron</span>",
       "note": ""
     },
@@ -1581,7 +1581,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "In rotation since June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/serenity-png.2975563/",
+      "image_url": "assets/map-images/serenity/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\"> Fast Iron</span>",
       "note": ""
     },
@@ -1609,7 +1609,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "In rotation since June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/siege-png.1890813/",
+      "image_url": "assets/map-images/siege/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -1637,7 +1637,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "Last seen June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/silver-birch-png.3376880/",
+      "image_url": "assets/map-images/silver-birch/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -1665,7 +1665,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "In rotation since June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/sky-rise-png.1820323/",
+      "image_url": "assets/map-images/sky-rise/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -1693,7 +1693,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "Last seen June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/slumber-png.3283934/",
+      "image_url": "assets/map-images/slumber/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -1721,7 +1721,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "Last seen June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/snails-png.3376878/",
+      "image_url": "assets/map-images/snails/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -1749,7 +1749,7 @@
       "days": 49,
       "days_display": "49",
       "display_status_line": "Last seen May 11, 2026",
-      "image_url": "https://hypixel.net/attachments/solace-png.2086232/",
+      "image_url": "assets/map-images/solace/main.webp",
       "gen_html": "<span style=\"color:rgb(41, 105, 176)\">Slow Iron</span>",
       "note": ""
     },
@@ -1778,7 +1778,7 @@
       "days": 35,
       "days_display": "35",
       "display_status_line": "Last seen May 25, 2026",
-      "image_url": "https://hypixel.net/attachments/speedway-png.2751024/",
+      "image_url": "assets/map-images/speedway/main.webp",
       "gen_html": "<span style=\"color:rgb(41, 105, 176)\">Slow Iron</span>"
     },
     {
@@ -1806,7 +1806,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "Last seen June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/steampunk-png.1979221/",
+      "image_url": "assets/map-images/steampunk/main.webp",
       "gen_html": "<span style=\"color:rgb(41, 105, 176)\">Slow Iron</span>"
     },
     {
@@ -1830,7 +1830,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "Last seen June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/terraced-png.3376877/",
+      "image_url": "assets/map-images/terraced/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -1858,7 +1858,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "Last seen June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/toro-png.2339557/",
+      "image_url": "assets/map-images/toro/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -1886,7 +1886,7 @@
       "days": 28,
       "days_display": "28",
       "display_status_line": "Last seen June 01, 2026",
-      "image_url": "https://hypixel.net/attachments/tuzi-png.3158305/",
+      "image_url": "assets/map-images/tuzi/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -1914,7 +1914,7 @@
       "days": 40,
       "days_display": "40",
       "display_status_line": "Last seen May 20, 2026",
-      "image_url": "https://hypixel.net/attachments/urban-plaza-png.3198574/",
+      "image_url": "assets/map-images/urban-plaza/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -1942,7 +1942,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "Last seen June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/vigilante-png.3283940/",
+      "image_url": "assets/map-images/vigilante/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -1970,7 +1970,7 @@
       "days": 28,
       "days_display": "28",
       "display_status_line": "Last seen June 01, 2026",
-      "image_url": "https://hypixel.net/attachments/waterfall-png.1979193/",
+      "image_url": "assets/map-images/waterfall/main.webp",
       "gen_html": "<span style=\"color:rgb(41, 105, 176)\">Slow Iron</span>",
       "note": ""
     },
@@ -1998,7 +1998,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "In rotation since June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/yue-png.2957231/",
+      "image_url": "assets/map-images/yue/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2026,7 +2026,7 @@
       "days": 28,
       "days_display": "28",
       "display_status_line": "Last seen June 01, 2026",
-      "image_url": "https://hypixel.net/attachments/zarzul-png.2013714/",
+      "image_url": "assets/map-images/zarzul/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2054,7 +2054,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "Last seen June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/antenna-png.3376886/",
+      "image_url": "assets/map-images/antenna/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2082,7 +2082,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "In rotation since June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/aquarium-png.2751026/",
+      "image_url": "assets/map-images/aquarium/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2110,7 +2110,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "Last seen June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/archway-png.1710964/",
+      "image_url": "assets/map-images/archway/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2138,7 +2138,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "In rotation since June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/artemis-png.2976373/",
+      "image_url": "assets/map-images/artemis/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2166,7 +2166,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "Last seen June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/ashore-png.1895937/",
+      "image_url": "assets/map-images/ashore/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2194,7 +2194,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "Last seen June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/boletum-png.1890803/",
+      "image_url": "assets/map-images/boletum/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2222,7 +2222,7 @@
       "days": 40,
       "days_display": "40",
       "display_status_line": "Last seen May 20, 2026",
-      "image_url": "https://hypixel.net/attachments/build-site-png.2976375/",
+      "image_url": "assets/map-images/build-site/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2250,7 +2250,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "Last seen June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/carapace-png.1705831/",
+      "image_url": "assets/map-images/carapace/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2279,7 +2279,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "In rotation since June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/catalyst1-png.2344851/",
+      "image_url": "assets/map-images/catalyst/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>"
     },
     {
@@ -2307,7 +2307,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "In rotation since June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/chained-png.1820325/",
+      "image_url": "assets/map-images/chained/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>"
     },
     {
@@ -2334,7 +2334,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "Last seen June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/chalk-cliffs-png.3376883/",
+      "image_url": "assets/map-images/chalk-cliffs/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2359,7 +2359,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "Last seen June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/crimson-png.3283939/",
+      "image_url": "assets/map-images/crimson/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2387,7 +2387,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "Last seen June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/daolong-png.2976376/",
+      "image_url": "assets/map-images/daolong/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2415,7 +2415,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "In rotation since June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/deposit-png.3126237/",
+      "image_url": "assets/map-images/deposit/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2443,7 +2443,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "Last seen June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/dreamgrove-png.1979225/",
+      "image_url": "assets/map-images/dreamgrove/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2472,7 +2472,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "In rotation since June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/eastwood-png.1979362/",
+      "image_url": "assets/map-images/eastwood/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>"
     },
     {
@@ -2500,7 +2500,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "In rotation since June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/enchanted-png.2344873/",
+      "image_url": "assets/map-images/enchanted/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>"
     },
     {
@@ -2527,7 +2527,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "In rotation since June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/extinction-png.2344874/",
+      "image_url": "assets/map-images/extinction/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2555,7 +2555,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "Last seen June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/fangoutpost-png.2086237/",
+      "image_url": "assets/map-images/fang-outpost/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2583,7 +2583,7 @@
       "days": 35,
       "days_display": "35",
       "display_status_line": "Last seen May 25, 2026",
-      "image_url": "https://hypixel.net/attachments/fort-doon-png.1820326/",
+      "image_url": "assets/map-images/fort-doon/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2611,7 +2611,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "In rotation since June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/frogiton-png.3126245/",
+      "image_url": "assets/map-images/frogiton/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2639,7 +2639,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "In rotation since June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/graveship-png.1890802/",
+      "image_url": "assets/map-images/graveship/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2667,7 +2667,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "Last seen June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/harvesting-png.3272053/",
+      "image_url": "assets/map-images/harvesting/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2691,7 +2691,7 @@
       "days": 28,
       "days_display": "28",
       "display_status_line": "Last seen June 01, 2026",
-      "image_url": "https://hypixel.net/attachments/3543685/",
+      "image_url": "assets/map-images/haven/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2719,7 +2719,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "Last seen June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/holmgang-png.2344878/",
+      "image_url": "assets/map-images/holmgang/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2747,7 +2747,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "In rotation since June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/horizon-png.1979899/",
+      "image_url": "assets/map-images/horizon/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2775,7 +2775,7 @@
       "days": 35,
       "days_display": "35",
       "display_status_line": "Last seen May 25, 2026",
-      "image_url": "https://hypixel.net/attachments/infinite-png.3198575/",
+      "image_url": "assets/map-images/infinite/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2804,7 +2804,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "In rotation since June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/invasion-png.1710966/",
+      "image_url": "assets/map-images/invasion/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>"
     },
     {
@@ -2832,7 +2832,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "In rotation since June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/jurassic-png.1710967/",
+      "image_url": "assets/map-images/jurassic/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>"
     },
     {
@@ -2859,7 +2859,7 @@
       "days": 40,
       "days_display": "40",
       "display_status_line": "Last seen May 20, 2026",
-      "image_url": "https://hypixel.net/attachments/katsu-png.1979900/",
+      "image_url": "assets/map-images/katsu/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2887,7 +2887,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "In rotation since June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/kubo-png.2976378/",
+      "image_url": "assets/map-images/kubo/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2916,7 +2916,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "In rotation since June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/lectus-png.2086243/",
+      "image_url": "assets/map-images/lectus/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>"
     },
     {
@@ -2943,7 +2943,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "Last seen June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/lost-temple-png.3283938/",
+      "image_url": "assets/map-images/lost-temple/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2971,7 +2971,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "Last seen June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/milestone-mystery-png.3271466/",
+      "image_url": "assets/map-images/mystery/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -2999,7 +2999,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "Last seen June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/nostalgia-png.3283935/",
+      "image_url": "assets/map-images/nostalgia/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3028,7 +3028,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "Last seen June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/obelisk-png.1890800/",
+      "image_url": "assets/map-images/obelisk/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>"
     },
     {
@@ -3055,7 +3055,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "Last seen June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/orchid-png.3198576/",
+      "image_url": "assets/map-images/orchid/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3083,7 +3083,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "In rotation since June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/paladin-png.2976379/",
+      "image_url": "assets/map-images/paladin/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3111,7 +3111,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "In rotation since June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/paradox-png.2976382/",
+      "image_url": "assets/map-images/paradox/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3139,7 +3139,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "Last seen June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/pharoah-png.1705857/",
+      "image_url": "assets/map-images/pharaoh/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3167,7 +3167,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "Last seen June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/planet98-png.2344875/",
+      "image_url": "assets/map-images/planet-98/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3195,7 +3195,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "In rotation since June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/pool-party-png.2976383/",
+      "image_url": "assets/map-images/pool-party/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3223,7 +3223,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "In rotation since June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/raze-png.3198577/",
+      "image_url": "assets/map-images/raze/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3251,7 +3251,7 @@
       "days": 28,
       "days_display": "28",
       "display_status_line": "Last seen June 01, 2026",
-      "image_url": "https://hypixel.net/attachments/relic-png.2344876/",
+      "image_url": "assets/map-images/relic/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3279,7 +3279,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "Last seen June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/rigged-png.3376885/",
+      "image_url": "assets/map-images/rigged/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3307,7 +3307,7 @@
       "days": 28,
       "days_display": "28",
       "display_status_line": "Last seen June 01, 2026",
-      "image_url": "https://hypixel.net/attachments/rise-png.2086241/",
+      "image_url": "assets/map-images/rise/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3332,7 +3332,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "Last seen June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/seraph-png.3376884/",
+      "image_url": "assets/map-images/seraph/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3360,7 +3360,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "In rotation since June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/3573778/",
+      "image_url": "assets/map-images/sky-festival/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3388,7 +3388,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "In rotation since June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/3573777/",
+      "image_url": "assets/map-images/stilted/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3417,7 +3417,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "In rotation since June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/3573776/",
+      "image_url": "assets/map-images/stonekeep/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>"
     },
     {
@@ -3445,7 +3445,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "In rotation since June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/3573775/",
+      "image_url": "assets/map-images/swashbuckle/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>"
     },
     {
@@ -3469,7 +3469,7 @@
       "days": 28,
       "days_display": "28",
       "display_status_line": "Last seen June 01, 2026",
-      "image_url": "https://hypixel.net/attachments/3573774/",
+      "image_url": "assets/map-images/temple/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3497,7 +3497,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "Last seen June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/3573773/",
+      "image_url": "assets/map-images/tengshe/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3525,7 +3525,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "Last seen June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/3573772/",
+      "image_url": "assets/map-images/terminal/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3553,7 +3553,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "In rotation since June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/3573771/",
+      "image_url": "assets/map-images/tigris/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3580,7 +3580,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "In rotation since June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/3573770/",
+      "image_url": "assets/map-images/treenan/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3609,7 +3609,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "In rotation since June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/3484014/",
+      "image_url": "assets/map-images/unturned/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>"
     },
     {
@@ -3636,7 +3636,7 @@
       "days": 21,
       "days_display": "21",
       "display_status_line": "In rotation since June 08, 2026",
-      "image_url": "https://hypixel.net/attachments/3484015/",
+      "image_url": "assets/map-images/usagi/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3664,7 +3664,7 @@
       "days": 0,
       "days_display": "0",
       "display_status_line": "Last seen June 29, 2026",
-      "image_url": "https://hypixel.net/attachments/3484016/",
+      "image_url": "assets/map-images/whiskers/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3689,7 +3689,7 @@
       "days": 7,
       "days_display": "7",
       "display_status_line": "Last seen June 22, 2026",
-      "image_url": "https://hypixel.net/attachments/3484017/",
+      "image_url": "assets/map-images/yandi/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     },
@@ -3717,7 +3717,7 @@
       "days": 14,
       "days_display": "14",
       "display_status_line": "In rotation since June 15, 2026",
-      "image_url": "https://hypixel.net/attachments/3484018/",
+      "image_url": "assets/map-images/zen-plaza/main.webp",
       "gen_html": "<span style=\"color:rgb(61, 142, 185)\">Fast Iron</span>",
       "note": ""
     }
